@@ -1,0 +1,16 @@
+.navbar-brand {
+    font-size: 180% !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+nav {
+    margin-bottom: 3%;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.87) !important;
+    font-size: 150% !important;
+}
+.bg-dark {
+    background: linear-gradient(90deg, #d04f87, #ab4d89) !important;
+}

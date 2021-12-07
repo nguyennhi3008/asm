@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>Toán 9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/page2.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="navbar-brand">Toán 9</div>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="barButton">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto my-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="home.html">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="page1.html">Toán đại</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="page2.html">Toán hình</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="page3.html">Phương pháp học</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown ml-lg-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tìm hiểu thêm
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="buybook.html">Mua sách</a>
+                            <a class="dropdown-item" href="contact.html">Liên hệ chủ blog</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="about.html">Lợi ích việc học Toán</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <h1 class="text-center h1">Công thức toán lớp 9 chương 1 hình học</h1>
+    <figure class="text-center">
+        <img class="img-thumbnail ehehe " src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIREhgSEhUZGBIYEhISGBgYHBgaGBIYGRgZGRkZGRkcIS4lHh4rHxgYJzg0LTAxNTU1GiU7QDs1Py40NTEBDAwMEA8QHhISHzYsISs0NTQ0NDYxMTQ0NDQxNTQ0NDQ9NDY0NDQ0NDE0NDQ0NDQ0NDQ0NDE0NDQ0NDE0NDQ2NP/AABEIAQsAvQMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAQIEBQMGB//EAEUQAAIBAgQDBAcGBAMGBwEAAAECAAMRBBIhMQVBUSJhcZEGE4GhwdHwBxQyQlKxFWJyc4Ky4SMzNDVjdCU2Q5KiwvEk/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECBAMFBv/EACoRAAMAAgEEAQMEAgMAAAAAAAABAgMREhMhMUFRBCKhYYGRsTNxFCND/9oADAMBAAIRAxEAPwDysJ2+7VP0+8QOFqfp94+c1H0/Ofk5DXaKem/iKk39Wy2y3IyXqKDrRa7N2GvqRYaDs9amEqhKQpvTYkIy6ZMuYlu3q1y2Vsu35Rryi2c1levH5MVhbfT6vFeeifFob5aDJ2cpUerK1FVXRFc6EKFKbC91vqbMOQqK1Nabo3+7SmWsn+zspDMmtzmbKTt+H2w2Cyv4/JhXkspte2l7X5X6TZxeIZ2V6dMqVqLUyHJkFixOo7RLXF9hpz7OVYl1amyJQIBZChZkuoQKiK1tT2M5Nj+KofGGxrI+3b8mMBfUbDfu5RXE9JXxaOzn7uTnDLclAQpLMB+Jr2YJzvZSLgWUcKmJf1qVER7KKgJOQMQ5JVOybZV0t+w0ANiWRv1+TCvCeip4lVCD1bh1VVLr6ss/aVmDZtO0we+p0cC9gVmM+FckkJYEkgAiygnYa8obHN789itCd/utT9PvHzh91qfp94+cZfJfJwhO/wB1qfp94+cX3ap+n3j5wDkvk6YD8R/p+ImgFJNhKeCosrEsLaW5dRN/hWFBvUcgIASWOgAG5JlStsx52k9iqejpr0eyQrrdlLfhOmoY8h38rTx9WnlYqSDY2upBB8CNCJvcb46+JP3fDhhSJCBVBz1ztqBrY8l8+gdT0UeiqtjMRh8LmFwtZxnI52UdPGalfBfc9GN0l5Z52E9JiPQ3Eil6/DvSxNHU5sO+c6b9m2tugJM83Os3NLaexzSrwEIQlDJwhCYzQEIQiAIQhAAhEDHAYQhCABCek4VwPDjBvjca7qhbJQRCoesRe9rg3BOndlYnSebPl3b29sSafgibVNpeghCEooIQhEBd4ULuR/L8RO3GeKes/wBjTNqK22/9Qj8zd19h7elqeG2f+03wlWdcUptsjJ6PqP2ZcESnRbH1AMzZghP5Ka6Mw72IPsA6mfLcTjXxtd8bWuXqVGZQdfVpchFXoALCfdOEUf8Awmmiak4BALfmJo/EmfBcD/uk/pH7TPh/7MrqvRij7rbZ6v0D4w2FxiLe1Ks60nXlduyjeIYgX6EzZ+1DgK0XXGUlslV/V1QBoKhBKv3ZrEH+bLzYzwtJyjKw3VlYdxBB+E+2/aBhxV4Vieq0TWHcaRFQHzSVnfTyTS/ceV8aTR8PhEpuL9ReObTuTnovRXiGCw4qPi6XrnOVEplFcAC5LXbsi91HXQzzsJjpbWjtU8lpn0v0c4vgMdihQXh1BVKO+YrTJ7NtMoTv6w9IuMYHA4o0G4bQdQqtmC0we0L/AISnxmB9mf8AzFf7VX9hI/aabcRc/wDSpf5TOHBc9etGbhPV4+tfJsHAUeMlBg6C4bDoS1ep6qmrFzoKaZfxaXJ1t2lJ2APDFcR4RgGNKjhRiaiEhnqFWAYb2dgdf6VAno+JJ/DeClaXZcUkQsNDnqsqu/jd2I9k+QAWhC5b+AxTz33el4PoeE9MOHVyExeCRFOmYIlRV8eyGA8AZ09IvQSk9L7zw83Fs/qwc61Fte9NjqD3XIPK0+cz6P8AZTxZiamEY3UL65P5e0A4HddlPiT1jqXP3SVkh41yl/sfOJ7b7PPRhcV6yvXW9EK1FAfzMy2Zh/SDoerdVmd6T8GY8VfDURrVqqyjkvrFDMT3Alz4Ce447xmnwbD4fD0QCcy3HM01INV/6mJ82PSO7bSS8sMuR1KU+WfNfSBcRTrHD4hixoAUVFgqKgAKlFGgzLlPU89pUwGLNFw4RHtulRVZXHMEMDbxGon0L7TOErVpJj6XaAVVcj81NtUb2E2/x90+ayoaqTpipVH9n17iPo1hsfgEfD0adCq9OnXQqiLYlb5WKgXUgkeR5T5LXotTdkdSrqxVlO6kbgz683F2wXCcPiAobLTwYKnmrBVYA8jY6d8oelXA6fFMOuOwdmq5b2GhrKN1I5OuoF+ljyI5Rbns/GzPiyOXp+N+TwnogqNj6C1FV6bOUZGUMrZkYC4bTcg+ybn2nYajRr0adGlTpj1TOfVqiZizWF8oF7ZPeZheiY//AL8Pff7wo13GuxnoftY/4yn/ANuP87zo/wDIv9Hav8y/0eOw2z/2m+Eqy1htn/tN8JVmvD7OmT0fY/s24wlfBrQJHraA9WV5lPyMO63Z8VM+b+lPo5U4fWcZT92ao7Unt2QjHMEY8mW+XXcAEd2XgsbVw7ipRdkqLezLvruCDoR3G4nqqf2lcQVcpTDuerK6kjvytYnwAnB4rx3ylbT9GThUVynued4PwevjHC0ULLcBn/IgvqWfYWGvXun2H0/xAo8KxRJsDhnpe2oBTA9pYTwXAcfxDjGMp069YLhUK1qlKiuSmyobhWJJZgzZRYm1r22ml9snFgUo8PQ9qo4r1R0pITlB8W1/wTjnqrtJrX6HLI6qkmj5xTFlA6AD3SUIT0kakThCEyGk9Z9mX/MV/tVf2EX2mC/EXH/SpfsZz+z3F0aGMNWvUVEWi6gsbXZmQAD2ZofaFjKNfGCrQqK6NRQEqb2ZWcEH2ZZx/wDT9jP36+/0PfYYrxbhORSM7UVQ/wAtanYi/QZlU+Bnx2vSdHZHUq6sVZToVI3Bmr6N+kVbAVC9OzI1s9NicrW2IP5WHX957LG8V4NxMBsQTRrZbZiCjjuzqCjDpe/hEk4b7dhSqxU+20/wfNZ9A+yjhzGrUxRFkWmaKnkzMys1vAIv/ulf+DcCpHPUxj1FH5FIObuPq0v+064v0ppYnJgcMRhMF+F6jWVjT5qgF8pbXqTfW2sLp0tJBkt3OpT/AFej0no/h0q4rEcVcj1ZJpUGOwpU1CtU8GKmx6X6zE4n6R8ExVT1lejVd8oTMQw7IvYABxYak+2d/TL0iwgwH3bB1UbNko5UP4KQBJ06WUL/AIp8ykxj5d2Tixcvura9I+z+j3FMDjqL4OgrCmlLIUa47D3XskkkgeOlx3T5Jxjhz4Wu+HfdGIB/Wu6t7VIMueifEvumMpVS2VM2Rydsj6NfuBs3+Gen+0KvgcWgr0K9NsQi5SoOtVL3yj+ZSSR4nulSuFa9Mcy8d6Xhml6Sf+X6P9rBf/SeR9DfSdsBVytdsO5GdRqUO2cDqBv1A7hPWcf4rgqnCjhExFNqiUaAUA6saRVrDvOQj2z5hHE7lp/I8MKppUvbPrnEPRpKmMw/EMLlKmrTeqARldTtVS3PUX6773v5v7V/+Lp/9sP87xegHpWMMfu2Ia1A3ZHbak2pI/pb3HxnL7Scfh8TVo1MPVSpZGRspuVsQy38czeUmZatJkRNTkSfheGeUwuz/wBtvhKstYXZ/wC23wlWbsPs05PQSxgMDUxFRaVFC7tso6cyTsFHUyzw9sCiZ8UcQz5rCnQVNVsLFmY6c/Kag9NnooaXDcJTwqnQ1ajetqtp+IjbN/UWEV5WnxlNv8Gara7Jdz2JxGF9HMF/tCHxVQXCKe3Xe1gq81prffvJ3Nj8prYitiKr4nENmr1WzN/KPyqByUCw9gkamepUatWd6tdvxO5JbwHQdw2kpGHA1XK/IoxtPlXkIQhNR1JwmqOFr+o+6SHCV/UfdPP6kmvhRkQmuOEpe2dtr7CS/g6frb3Q6kh02Y0JtfwVP1t7o/4Kn6290OrI+lRiQm0vBkP520Nth8pL+Bp+tvdDqyHSow4Td/gafqb3RLwWmdQ7HUjS243h1YDpUYcJungafrb3SJ4Kn6290OrA+lRiQmweDp+tvdEeEL+s+6HUkXSoyITWPCl/UfdEeFr+o+6HUkXToo4XZ/7bfCVZsHBhEcgk3RhMv1YnXFllb2K8NVrRzhLtbhtREzsAE11zoToVB0DX0LrfTTMLybcJqCo9OwzIiu9yECqQpzHPl07a+YnXrR8nLo1+n8mfCW2wFRQ5KsBSZVqXsDTZmKgMNxcgidRwmpezDJ2Fe7kKAHBKAnkzAGwOunSHWj5DpV+n8mfCXzwqqASVtlJDBmQMp7ehQnMD2H0trkMqerEOtHyNYafj+z0YlLiCEtcKWIQ5RlLAm+yspujbdo6eUvCSE81myp5LRnVEqlndQRnWpTXU3Wy9gkWsBmVtb/nEmEFx6pCnbp3LKwF7Ne6G1zrqedxqbS+JMSdErF+pTKVMjg3LGoD2QVzJdMwUX5qGG850rq3ZQimro4sjrcZKgICHmLLsBcmaQkhForpd09mTTpVFBFRSVZ1quFLPe9w42GmbIcovpfeW6FDOjqAUpsbICCuXsgZlU6qM1yB7ecuXjvAaxJezJqJUdfWFGDsal15qBRdAPa5JH9QjGHzBRTGVhUDZlpvTAIR8pYN+IZrD225zWvHELpL5K2ALGnd1KsalQlTyu7eYnZpYo4ZnuVGg3J0A9sVTCkbMCfbON/UYsdcaaTOk9lopmQM6OCDY7zmZolpraGyJkTJGRMtEs54gXRgN8pmP6h/0nyM3JExpkqtFKnWstFWpMRSeo510fNlOW2TQDKvW9ztLbcUc3LUi1Q4ZsMXFgGBdXVihQi65cu+ot0jMRlHN8X5RwwONqUy5ZGqGoe3mJs4KuCH0ue04a991Eni8ea65KlN8pWiSQwzF6aMma+S1mDai2h1vyPQwhol8d713K2Mxj1RWz0yHq1qda4PZXIrqFykXOjnW/ITP9U/6T5Ga5ijBZOPhFkSUiJKcjToYjEQMAYgJXkpESYWJlaYXheTFPvk1pAkAXJJsANzFtBo5Xl3C4PNZnuF3A5t8h38/fLGGwaLqwDN03VfHkT7vHleVh0Eak41b9HfFU8uHXKLAqTpsLkzAcG89NhcSjA0qnZGpU8tdSD7bzliOGU1u5ZQgFycwtbrPmvrMGWczbW9vsRgzqNzZ5rHU+wH55svjoT8PfKEvcSxKuwCfgXa+mYnc2lGe59FFRhSvyaN77iiMcRmwgURjiMZLEYozFAhiMIGEaIYjIyRkZRDLMcIWnI36ARwjRSdgTy06/QglsTpT3bBTOgM569D5HWW6mHRArZroUDG1r5vzIBfce79xy/GiOrPpk/UNcDT8IYnUBQepI7uV78ryzTZV0XnoWO57h0H0ZzxwyFafNVUsL3ysdcpN7GwI17zysByV5cxruc5p2lT8F5HnQPKSvJvXCC7atyX4t0Hv/eNrQMs1agUZmNhr4nuA5n6NplYvFGppayX0X4k8zIVqzObsb8u4DoBynEzm+5cxryRaKMxQOgojHEYyWKIxxGMhiMUcUCGIwgYSiGIyMZijIZbiLW+vlE75Re1+g6nkIqAKDOwzPYmw2HcO+TEp92d/qc/Banz/AEW/UhbZmAJ0sfxAd3Lr1lyniqehyLoCLlibXNsouNdp556udjYncmzXu+p0C2J0t9bTqMYV7LjlqOomqcctaZ49ZLquW/5PX4cqVDILAgEWFreU6JSQursBdSDmIBI92s8/wzFtdVXa2vMHTfx0+rT0GbS3tmHLFY61s1Y6Vz3RmcTwjZ3dTmBYsbAAjXcAaW/aU1RrKbXDEhbWJNt9N+c9ABMTibMjZAewbnoNeQ152uRpr15XjyNrTNE3x1PrwcnrBNFsX67hfDqe/bpfcVWck3JuTqSdyYrxRN7NE9h3kpzvJXiLbEYo4oD2KIxxGMTFEYzEYyWIxRmKBzYjAwMDKIZExSUjGQy1z8B7z9e+VcW9TMq0zY2LNfYDlc+flOhxAFQodNA1/YJyqY9BbKb62O4sOt7S4ilrsZ/qKVW2/k5YVgamYHsIrAk6XLnMfYJTx+JLVM63y2sDa17b2ldidQDoSCR1te2vtksNSLuqdWAF9Br38psUJPbMvdLR6HhZTsHYhRU/qJGoJ8eQm/h635id/M+E89hMP6pRmbOwLFf0qtrKfK505NOr4rtIxcAasddWAttby/8AyYssc67M6xXFbPUq+b5SjxIBxltqBvyH1YSOGrl1BU2BsbkX0I6ddpxxAFMki5XnfXWw7XtO/n48sMfd3LzW1PYyVOkJOstmIHLT5++QhS02j0MdcpT+UBkgZCNTEdfRIxQMUAQRGEIDYojHEYyGIxRmKBDEYQMDKIYpGSkYyGVMbc2vzvr12090pWmq1NWtm228L/QlOvhyh125HrN0UvBn+pxucr+H3KxEQuCCLggggjQgjoeRkysKaZmC33IE6+jgaTUjUy5CRTuWYkks5J1Ou+t9+ZhhuHBWzO2bnbl7bk3l1FAAA2AAEkJgeR+F4GpXsuYcc1JU923kdJYrJfs75hdjtpc/XnKWHedsTVsDY9B3g2+V5ENqtlVHJaXllJ3LEk7nw+EjCE5t7ez1InjKn4FAQiiKJRQvCAkwijigUBiMcRjJYpGSigQxGBgYGUQxSMkZGMhklS/lf2R1aY/A+ttj006wSI980tGvLinItMz62HZdxp1GolcNYgjcEEd1tpsXIFgfPWZ7YNydLHf4mdZrt9x5l/TZJfjaOh4obfh7Vt76eUrpxGoGBY3W+qiwvv3d8Rwj9B5iWMPwknWobDoNz7TtE1jlNshYMjfhmxRqDQ8jbv8AeNJBiSbneNcKtJQiiw/Eb7knx3t842UA738PmflMFUvXg3YcHHvXkhFJsbHQD97+ci2/vkmgUUcUACF4QjOfsIQhAoIQhAREyJjMRgSwMIQMohkTFGYoyGdDTb9J8jJ+pY6hTtfp47zQEYOnth/yH8GtUzPXCueU7UsERcsw/Cdtd9PjLRJI9v7906OoCm38o15XuT/l95kvNTHyZVWgi7C55Ezo6lSSRa1j4k7a8xufAQNrczY+Gn0PfOeOxmXsn8Q3tbc9T7LTnuqY0nT0jm4J1PPn3/PSJwNCT3ad3+lpUfFOw0Fu/wB259krsxI1N+ctQzssNezRzgi4/pvvqLfAiJjcA+z5fXdK+CcdpbdG1300PdzHlLOYm49o6X8PC8KWno5XPGtEIoGERDEYozIxnKvJOEjCA0yUiYQgGxRRxSiWEDCIwIYjFHFGQzULAC52nL74gNhrfSw68vfaNtRbqLTJNwe8GREp+Tdhia3svff3Y5VAF9PE8vfaaNrLba7MNd9LW033vMaiT6wW0Fw2lv6h4zWcHs26ae0k/EQuUtaKzKZaSBHCgseQ9+4/b6vMZqhYk7X+hL3E6gW1NTtqbdTrv5eQmczWOgA5/HnKxzpbO+GdLk/YKCf2iUAbnu84Pcn62g41vffXrOh32TwzhXGnOxv0Ohl7OQbey3XrM1iPPWaHrCwBv+IAm3Xne3feRa9mXOvDBhY26aRSZS9j1HPTbT5echp1v4fMyDI2RMV50a2W4sO0R3nT4eHOco0RTHCKEYtjhCEkrYRGBhKJYRRxGBLEYozFGQXQ0z8ULMe/WWs0r4saA9NJM+TXgrVf7J4N9QRyDfX/AMj5d00qpy3c/lGUX5kCwIv9XAmfwq5YgXuWQC2+5v7oY+qWOUfhBvfkWvrYn60EprdaKv7suiq7X7ROuu3+v1pEW008OvfELAanyizjkPPX/SdNGxMkbtbc8vrziI01I/fT2e2QZyfD3eUjePQcjpmHS/jp7h85awtU5bbWN9NN+/frKaITsCfhOpPqkZ3PZVSSBqdNfD3yK1o45rni9st3inRcLiGLKtCoXRBVemDSNREbQZqYfMGPJSM3dK1CqHRXW9mAYX3ses5ppnnzliu0s6XhCEehthCF4QFsIQhDQ9hCEIA2BkTHFGSwihAwJZO8i+oIjEIi1Wns64J1Snntrd7b2PZ316abd2+0znuSSWub76/KWKikgILZQLc9btm7/CIUF5kn3C3T6M6JpdzTFzLdN92VrDqPf8p0XDse7xuP3EsqANhbw38944OvgVfUfCK64bqfL5n5TqtNRyHLfX95OEl02cqy1XljLXhTxi0GWuy5lpulVl0uyowYgX0vYc5GJkBFiARpcMLqw6Ecweclrscb7y0aOH4VQppVC4pBWrrTxT1cz5yKePWsrClbOKnqxfLa5bzlB8WldmrKMq1Heqqm11V3ZwNNNARtNo+l2Pvf1qX6+rW9r7eEwHoqeVrEkBdALm9gOQ5eE5zLTMmDFUU20dM3f9fRERcb3FvozkmHVSCL3G2vcB8B5RfdVta5t00137v5j5zp3Ne6O2deo+Xj0jDD4fXnOLUAVy3NtPHQW/YRDDLe+t73353BPnYeUO4bfwd846iGcdRpoddjOJwqncm1rWvy3+XlGKI6nlrppYk9O8w7hyfwdiw690izgakgDx9k5JhwNieg22ve23UwbDgm9yDe+nL6Nz7TDuDb0dc46iGYdfrac3oKwsb7k94JBHxkRhVvfXcHfne/7i8O4m2doGEIwCOIQgMcIoQAcIoQAIQhAWwhCEA2EIQgARxQgGxxQhANhCEIBscIoQGEIQgAQihGI//Z "
+            alt="sgk " />
+    </figure>
+    <main class="d-flex">
+
+        <div class="gr1">
+            <div class="div">Hi vọng với bài tóm tắt công thức Toán 9 này, học sinh sẽ dễ dàng nhớ được công thức và biết cách làm các dạng bài tập Toán lớp 9. Mời các bạn đón xem:</div>
+            <section>
+                <h3>1. Hệ thức trong tam giác vuông </h3>
+                <div class="divi">Cho tam giác ABC có đường cái AH</div>
+                <div class="divi">Đặt BC = a; AC = b; AB = c; AH = h; CH = b'; BH = c'</div>
+                <div class="divi">BH, CH lần lượt là hình chiếu của AB và AC lên BC.</div>
+                <figure>
+                    <img src="https://vietjack.com/cong-thuc/images/cong-thuc-toan-lop-9-chuong-1-hinh-hoc-a01.PNG" class="img-thumbnail" alt="img1">
+                </figure>
+                <h4>Ta có các hệ thức sau</h4>
+                <ul>
+                    <li>b2 = ab' ; c2 = ac'</li>
+                    <li>h2 = b'c'</li>
+                    <li>ah = bc</li>
+                    <li>a2 = b2 + c2 (Định lý Py-ta-go)</li>
+                    <li>1/h2= 1/b2 +1/c2</li>
+                </ul>
+            </section>
+            <section>
+                <h3>2. Tỉ số lượng giác góc nhọn</h3>
+                <h4>a) Định nghĩa</h4>
+                <figure>
+                    <img src="https://vietjack.com/cong-thuc/images/cong-thuc-toan-lop-9-chuong-1-hinh-hoc-a03.PNG" class="img-thumbnail" alt="img3">
+                </figure>
+                <figure><img src="https://vietjack.com/cong-thuc/images/cong-thuc-toan-lop-9-chuong-1-hinh-hoc-a04.PNG" class="img-thumbnail" alt="img4"></figure>
+                <h4>b) Tính chất</h4>
+                <div>+) Cho hai góc α và β phụ nhau. Khi đó</div>
+                <ul>
+                    <li>sin = cos;</li>
+                    <li>tan = cot;</li>
+                    <li>cos = sin;</li>
+                    <li>cot = tan;</li>
+                </ul>
+                <div class="divi">+) Cho góc nhọn a. Ta có</div>
+                <figure>
+                    <img src="https://vietjack.com/cong-thuc/images/cong-thuc-toan-lop-9-chuong-1-hinh-hoc-a05.PNG" class="img-thumbnail" alt="img5">
+                </figure>
+                <h4>c) Tỉ số lượng giác của các góc đặc biệt</h4>
+                <figure>
+                    <img src="https://vietjack.com/cong-thuc/images/cong-thuc-toan-lop-9-chuong-1-hinh-hoc-a06.PNG" class="img-thumbnail" alt="img6">
+                </figure>
+            </section>
+            <section>
+                <h3>3. Hệ thức về cạnh và góc trong tam giác vuông</h3>
+                <figure>
+                    <img src="https://vietjack.com/cong-thuc/images/cong-thuc-toan-lop-9-chuong-1-hinh-hoc-a07.PNG" class="img-thumbnail" alt="img7">
+                </figure>
+                <ul>
+                    <li>b = asinB = acosC</li>
+                    <li>b = ctanB = ccotC</li>
+                    <li>c = asinC = acosB</li>
+                    <li>c = btanC = bcotB</li>
+                </ul>
+
+            </section>
+        </div>
+        <div class="gr2 float-right ">
+            <figure>
+                <img src="anh/hoc-toan.jpg " alt="anh1 " class="img-thumbnail i ">
+                <img src="anh/giup-con-hoc-gioi-toan-2-7262-1563813597.jpg " alt="anh2 " class="img-thumbnail i1 ">
+                <img src="anh/quadratic boy.jpg " alt="anh3 " class="img-thumbnail i2 ">
+                <img src="anh/unnamed.jpg " alt="anh4 " class="img-thumbnail i3 ">
+                <img src="anh/math.jpg " alt="anh5 " class="img-thumbnail i4 ">
+                <img src="anh/Math-Student-Feature-Image.jpg " alt="anh6 " class="img-thumbnail i5 ">
+                <img src="anh/hoc-toan.jpg " alt="anh7 " class="img-thumbnail i6 ">
+                <img src="anh/giup-con-hoc-gioi-toan-2-7262-1563813597.jpg " alt="anh8 " class="img-thumbnail i7 ">
+                <img src="anh/quadratic boy.jpg " alt="anh9 " class="img-thumbnail i8 ">
+                <img src="anh/unnamed.jpg " alt="anh10 " class="img-thumbnail i9 ">
+                <img src="anh/math.jpg " alt="anh11 " class="img-thumbnail i10 ">
+                <img src="anh/Math-Student-Feature-Image.jpg " alt="anh12 " class="img-thumbnail i11 ">
+                <img src="anh/hoc-toan.jpg " alt="anh13 " class="img-thumbnail i12 ">
+                <img src="anh/giup-con-hoc-gioi-toan-2-7262-1563813597.jpg " alt="anh14 " class="img-thumbnail i13 ">
+                <img src="anh/quadratic boy.jpg " alt="anh15 " class="img-thumbnail i14 ">
+                <img src="anh/unnamed.jpg " alt="anh16 " class="img-thumbnail i15 ">
+                <img src="anh/math.jpg " alt="anh17 " class="img-thumbnail i16 ">
+                <img src="anh/giup-con-hoc-gioi-toan-2-7262-1563813597.jpg " alt="anh14 " class="img-thumbnail i17 ">
+                <img src="anh/quadratic boy.jpg " alt="anh15 " class="img-thumbnail i18 ">
+
+
+
+            </figure>
+            <div class="divi">
+                <p>Như vậy, việc học Toán là một việc thực sự giúp đỡ các em rất nhiều trong cuộc sống hiện tại và tương lai. Vậy, tại sao quý vị phụ huynh lại không cho con em mình học Toán với phương pháp hoàn toàn mới tại <a href="https://www.phonghoctructuyen.com/ "
+                        target="_blank ">web này</a>, với ưu đãi chưa từng có. Với blog này, mong các bạn có thể nắm được những công thức nào quan trọng và ôn tập chúng để chuẩn bị cho kì thi tuyển sinh lớp 10.<br> Nếu muốn liên hệ với chủ blog hoặc muốn
+                    góp ý cho j thêm về blog này thì hãy nhấn <a href="https://www.facebook.com/nguyenhiep121107 " target="_blank ">tại đây</a></p>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer class="text-center">
+        Chúc cách bạn học tốt !!!
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

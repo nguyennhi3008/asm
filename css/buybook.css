@@ -1,0 +1,109 @@
+.navbar-brand {
+    font-size: 180% !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+nav {
+    margin-bottom: 3%;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.87) !important;
+    font-size: 150% !important;
+}
+
+.dk {
+    font-size: 30px;
+}
+
+label {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.form-control {
+    width: 80% !important;
+}
+
+.radio {
+    margin-left: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+form {
+    margin: 0 auto;
+    padding: 3%;
+    border: 1px solid black;
+    box-shadow: 0 0 10px;
+    width: 70%;
+}
+
+.form-group {
+    padding-left: 20%;
+}
+
+#set1,
+#set2,
+#set3,
+#set4,
+#set6,
+#set7 {
+    color: red;
+}
+
+@media all and (max-width:768px) {
+    .dk {
+        font-size: 20px;
+    }
+    label {
+        font-size: 15px;
+    }
+    .inp5 {
+        width: 50% !important;
+    }
+    footer {
+        margin-top: -3%;
+        margin-bottom: 2%;
+    }
+    .fl {
+        display: flex;
+    }
+    #set1,
+    #set2,
+    #set3,
+    #set4,
+    #set6,
+    #set7 {
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:992px) {
+    main {
+        margin-top: 9%;
+    }
+    footer {
+        margin-top: 2%;
+        margin-bottom: -10%;
+    }
+    .row1 {
+        display: flex;
+    }
+    .fl {
+        display: flex;
+    }
+}
+
+@media all and (min-width:992px) {
+    footer {
+        margin-top: -0.5%;
+        margin-bottom: 0.5%;
+    }
+    .row1 {
+        display: flex;
+    }
+    .fl {
+        display: flex;
+    }
+}

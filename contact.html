@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Toán 9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/contact.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="navbar-brand">Toán 9</div>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="barButton">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto my-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="home.html">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="page1.html">Toán đại</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="page2.html">Toán hình</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="page3.html">Phương pháp học</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown ml-lg-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tìm hiểu thêm
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="buybook.html">Mua sách</a>
+                            <a class="dropdown-item" href="contact.html">Liên hệ chủ blog</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="about.html">Lợi ích việc học Toán</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form onsubmit="submitForm(event)">
+            <div class="text-center dk">Liên hệ chủ blog</div>
+            <hr>
+            <div class="form-group">
+                <label for="name">Họ và Tên:</label>
+                <input class="form-control" id="name" type="text">
+                <div id="set"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Số điện thoại:</label>
+                <input class="form-control" id="phone" type="number">
+                <div id="set1"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="mail">Email:</label>
+                <input class="form-control" type="mail" id="mail">
+                <div id="set2"></div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Câu hỏi:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                <div id="set3"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Gửi câu hỏi</button>
+        </form>
+    </main>
+    <hr>
+    <footer class="text-center">
+        Chúc cách bạn học tốt !!!
+    </footer>
+    <script src="js/contact.js"></script>
+    <script src="js/menu.js"></script>
+
+</body>
+
+</html>
